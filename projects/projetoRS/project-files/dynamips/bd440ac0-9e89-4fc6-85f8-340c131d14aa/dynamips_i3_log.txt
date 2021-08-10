@@ -1,0 +1,37 @@
+Jan 28 14:59:57.234 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jan 28 14:59:57.234 HYPERVISOR: Started on IP = localhost, TCP port = 50131.
+Jan 28 14:59:57.245 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 28 14:59:57.246 HYPERVISOR: exec_cmd: hypervisor working_dir /home/rita/GNS3/projects/projetoRS/project-files/dynamips 
+Jan 28 14:59:57.246 GENERAL: working_dir=/home/rita/GNS3/projects/projetoRS/project-files/dynamips
+Jan 28 14:59:57.246 HYPERVISOR: exec_cmd: hypervisor working_dir /home/rita/GNS3/projects/projetoRS/project-files/dynamips/3ffd7527-36b5-482c-b163-e74e07464e77 
+Jan 28 14:59:57.246 GENERAL: working_dir=/home/rita/GNS3/projects/projetoRS/project-files/dynamips/3ffd7527-36b5-482c-b163-e74e07464e77
+Jan 28 14:59:57.246 HYPERVISOR: exec_cmd: vm create SWL3B 2 c3725 
+Jan 28 14:59:57.246 VM: VM SWL3B created.
+Jan 28 14:59:57.247 HYPERVISOR: exec_cmd: vm set_con_tcp_port SWL3B 5003 
+Jan 28 14:59:57.247 HYPERVISOR: exec_cmd: c3725 get_mac_addr SWL3B 
+Jan 28 14:59:57.247 HYPERVISOR: exec_cmd: vm set_disk0 SWL3B 1 
+Jan 28 14:59:57.249 HYPERVISOR: exec_cmd: vm set_ios SWL3B /home/rita/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Jan 28 14:59:57.249 HYPERVISOR: exec_cmd: c3725 set_mac_addr SWL3B c202.0666.0000 
+Jan 28 14:59:57.249 HYPERVISOR: exec_cmd: vm set_nvram SWL3B 256 
+Jan 28 14:59:57.250 HYPERVISOR: exec_cmd: vm get_status SWL3B 
+Jan 28 14:59:57.250 HYPERVISOR: exec_cmd: vm slot_add_binding SWL3B 1 0 NM-16ESW 
+Jan 28 14:59:57.250 HYPERVISOR: exec_cmd: vm get_status SWL3B 
+Jan 28 14:59:57.250 HYPERVISOR: exec_cmd: vm slot_add_binding SWL3B 2 0 NM-1FE-TX 
+Jan 28 14:59:57.904 HYPERVISOR: exec_cmd: nio create_udp udp-e0902342-15af-4771-91d1-4ca55633045c 10010 127.0.0.1 10011 
+Jan 28 14:59:58.121 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SWL3B 1 13 udp-e0902342-15af-4771-91d1-4ca55633045c 
+Jan 28 14:59:58.122 HYPERVISOR: exec_cmd: vm get_status SWL3B 
+Jan 28 14:59:58.225 HYPERVISOR: exec_cmd: nio create_udp udp-3384ee90-7d9f-4305-87a1-c8fc49517b94 10014 127.0.0.1 10015 
+Jan 28 14:59:58.227 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SWL3B 1 14 udp-3384ee90-7d9f-4305-87a1-c8fc49517b94 
+Jan 28 14:59:58.227 HYPERVISOR: exec_cmd: vm get_status SWL3B 
+Jan 28 14:59:58.338 HYPERVISOR: exec_cmd: nio create_udp udp-032e579f-fd83-4613-b113-975508fb3aff 10022 127.0.0.1 10023 
+Jan 28 14:59:58.339 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SWL3B 0 0 udp-032e579f-fd83-4613-b113-975508fb3aff 
+Jan 28 14:59:58.339 HYPERVISOR: exec_cmd: vm get_status SWL3B 
+Jan 28 18:40:24.479 HYPERVISOR: exec_cmd: vm get_status SWL3B 
+Jan 28 18:40:24.486 HYPERVISOR: exec_cmd: vm extract_config SWL3B 
+Jan 28 18:40:25.436 HYPERVISOR: exec_cmd: vm get_status SWL3B 
+Jan 28 18:40:25.437 HYPERVISOR: exec_cmd: vm extract_config SWL3B 
+Jan 28 18:40:25.440 HYPERVISOR: exec_cmd: vm delete SWL3B 
+Jan 28 18:40:25.442 VM: VM SWL3B destroyed.
+Jan 28 18:40:25.443 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 28 18:40:25.661 HYPERVISOR: Stopped.
+Jan 28 18:40:25.661 GENERAL: reset done.

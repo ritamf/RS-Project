@@ -1,0 +1,26 @@
+Jan 29 17:59:06.008 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jan 29 17:59:06.009 HYPERVISOR: Started on IP = localhost, TCP port = 48807.
+Jan 29 17:59:06.019 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 29 17:59:06.020 HYPERVISOR: exec_cmd: hypervisor working_dir /home/rita/GNS3/projects/projetoRS/project-files/dynamips 
+Jan 29 17:59:06.020 GENERAL: working_dir=/home/rita/GNS3/projects/projetoRS/project-files/dynamips
+Jan 29 17:59:06.020 HYPERVISOR: exec_cmd: hypervisor working_dir /home/rita/GNS3/projects/projetoRS/project-files/dynamips/bd440ac0-9e89-4fc6-85f8-340c131d14aa 
+Jan 29 17:59:06.020 GENERAL: working_dir=/home/rita/GNS3/projects/projetoRS/project-files/dynamips/bd440ac0-9e89-4fc6-85f8-340c131d14aa
+Jan 29 17:59:06.020 HYPERVISOR: exec_cmd: vm create R1 3 c3725 
+Jan 29 17:59:06.020 VM: VM R1 created.
+Jan 29 17:59:06.020 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5019 
+Jan 29 17:59:06.021 HYPERVISOR: exec_cmd: c3725 get_mac_addr R1 
+Jan 29 17:59:06.021 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+Jan 29 17:59:06.022 HYPERVISOR: exec_cmd: vm get_status R1 
+Jan 29 17:59:06.022 HYPERVISOR: exec_cmd: vm set_idle_pc R1 0x60a6a1e0 
+Jan 29 17:59:06.023 HYPERVISOR: exec_cmd: vm set_ios R1 /home/rita/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Jan 29 17:59:06.023 HYPERVISOR: exec_cmd: c3725 set_mac_addr R1 c203.2180.0000 
+Jan 29 17:59:06.023 HYPERVISOR: exec_cmd: vm set_nvram R1 256 
+Jan 29 17:59:06.024 HYPERVISOR: exec_cmd: vm get_status R1 
+Jan 29 17:59:06.024 HYPERVISOR: exec_cmd: vm slot_add_binding R1 1 0 NM-1FE-TX 
+Jan 29 17:59:06.024 HYPERVISOR: exec_cmd: vm get_status R1 
+Jan 29 17:59:06.025 HYPERVISOR: exec_cmd: vm slot_add_binding R1 2 0 NM-1FE-TX 
+Jan 29 18:07:17.993 HYPERVISOR: exec_cmd: vm set_ghost_status R1 2 
+Jan 29 18:07:17.993 HYPERVISOR: exec_cmd: vm set_ghost_file R1 /home/rita/GNS3/projects/projetoRS/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Jan 29 18:07:17.993 HYPERVISOR: exec_cmd: vm get_status R1 
+Jan 29 18:07:17.995 HYPERVISOR: exec_cmd: vm set_config R1 configs/i3_startup-config.cfg 
+Jan 29 18:07:17.995 HYPERVISOR: exec_cmd: vm start R1 

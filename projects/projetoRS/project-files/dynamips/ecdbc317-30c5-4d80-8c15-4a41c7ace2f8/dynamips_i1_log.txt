@@ -1,0 +1,16 @@
+Jan 26 14:06:10.560 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jan 26 14:06:10.560 HYPERVISOR: Started on IP = localhost, TCP port = 46229.
+Jan 26 14:06:10.567 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 26 14:06:10.567 HYPERVISOR: exec_cmd: hypervisor working_dir /home/rita/GNS3/projects/projetoRS/project-files/dynamips 
+Jan 26 14:06:10.567 GENERAL: working_dir=/home/rita/GNS3/projects/projetoRS/project-files/dynamips
+Jan 26 14:06:10.567 HYPERVISOR: exec_cmd: ethsw create Switch1 
+Jan 26 17:03:33.969 HYPERVISOR: exec_cmd: ethsw rename Switch1 SW1 
+Jan 26 19:28:14.790 HYPERVISOR: exec_cmd: nio create_udp udp-102cc0c4-212f-4b2e-bd21-3b7a148042fa 10005 127.0.0.1 10004 
+Jan 26 19:28:14.791 HYPERVISOR: exec_cmd: ethsw add_nio SW1 udp-102cc0c4-212f-4b2e-bd21-3b7a148042fa 
+Jan 26 19:28:14.799 HYPERVISOR: exec_cmd: ethsw set_dot1q_port SW1 udp-102cc0c4-212f-4b2e-bd21-3b7a148042fa 5 
+Jan 26 19:32:32.861 HYPERVISOR: exec_cmd: nio create_udp udp-40a9f941-4fd5-4840-9b7c-d83c3112781a 10009 127.0.0.1 10008 
+Jan 26 19:32:32.861 HYPERVISOR: exec_cmd: ethsw add_nio SW1 udp-40a9f941-4fd5-4840-9b7c-d83c3112781a 
+Jan 26 19:32:32.865 HYPERVISOR: exec_cmd: ethsw set_access_port SW1 udp-40a9f941-4fd5-4840-9b7c-d83c3112781a 1 
+Jan 26 19:32:59.219 HYPERVISOR: exec_cmd: nio create_udp udp-209c6107-0977-410e-9651-b6c044001f52 10010 127.0.0.1 10011 
+Jan 26 19:32:59.219 HYPERVISOR: exec_cmd: ethsw add_nio SW1 udp-209c6107-0977-410e-9651-b6c044001f52 
+Jan 26 19:32:59.222 HYPERVISOR: exec_cmd: ethsw set_access_port SW1 udp-209c6107-0977-410e-9651-b6c044001f52 2 

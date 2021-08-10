@@ -1,0 +1,24 @@
+Jan 29 17:59:05.811 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jan 29 17:59:05.812 HYPERVISOR: Started on IP = localhost, TCP port = 41611.
+Jan 29 17:59:05.822 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 29 17:59:05.822 HYPERVISOR: exec_cmd: hypervisor working_dir /home/rita/GNS3/projects/projetoRS/project-files/dynamips 
+Jan 29 17:59:05.822 GENERAL: working_dir=/home/rita/GNS3/projects/projetoRS/project-files/dynamips
+Jan 29 17:59:05.823 HYPERVISOR: exec_cmd: ethsw create SW2 
+Jan 29 17:59:06.969 HYPERVISOR: exec_cmd: nio create_udp udp-f2278fc8-454c-4104-825f-2008aba55e70 10016 127.0.0.1 10017 
+Jan 29 17:59:06.969 HYPERVISOR: exec_cmd: ethsw add_nio SW2 udp-f2278fc8-454c-4104-825f-2008aba55e70 
+Jan 29 17:59:06.976 HYPERVISOR: exec_cmd: ethsw set_access_port SW2 udp-f2278fc8-454c-4104-825f-2008aba55e70 2 
+Jan 29 17:59:07.030 HYPERVISOR: exec_cmd: nio create_udp udp-b82e28be-d55c-4dd4-843b-fb813b5d0464 10018 127.0.0.1 10019 
+Jan 29 17:59:07.031 HYPERVISOR: exec_cmd: ethsw add_nio SW2 udp-b82e28be-d55c-4dd4-843b-fb813b5d0464 
+Jan 29 17:59:07.036 HYPERVISOR: exec_cmd: ethsw set_access_port SW2 udp-b82e28be-d55c-4dd4-843b-fb813b5d0464 3 
+Jan 29 17:59:07.090 HYPERVISOR: exec_cmd: nio create_udp udp-23b08304-8eb8-4770-8bfb-c521cc8fa868 10020 127.0.0.1 10021 
+Jan 29 17:59:07.090 HYPERVISOR: exec_cmd: ethsw add_nio SW2 udp-23b08304-8eb8-4770-8bfb-c521cc8fa868 
+Jan 29 17:59:07.097 HYPERVISOR: exec_cmd: ethsw set_access_port SW2 udp-23b08304-8eb8-4770-8bfb-c521cc8fa868 4 
+Jan 29 17:59:07.149 HYPERVISOR: exec_cmd: nio create_udp udp-764eb4b6-45ae-4c68-a831-07af2e42f1a8 10022 127.0.0.1 10023 
+Jan 29 17:59:07.149 HYPERVISOR: exec_cmd: ethsw add_nio SW2 udp-764eb4b6-45ae-4c68-a831-07af2e42f1a8 
+Jan 29 17:59:07.157 HYPERVISOR: exec_cmd: ethsw set_access_port SW2 udp-764eb4b6-45ae-4c68-a831-07af2e42f1a8 5 
+Jan 29 17:59:07.647 HYPERVISOR: exec_cmd: nio create_udp udp-18877161-12fd-48ce-b3d3-5a8cc0438049 10037 127.0.0.1 10036 
+Jan 29 17:59:07.648 HYPERVISOR: exec_cmd: ethsw add_nio SW2 udp-18877161-12fd-48ce-b3d3-5a8cc0438049 
+Jan 29 17:59:07.659 HYPERVISOR: exec_cmd: ethsw set_dot1q_port SW2 udp-18877161-12fd-48ce-b3d3-5a8cc0438049 1 
+Jan 29 17:59:07.972 HYPERVISOR: exec_cmd: nio create_udp udp-db75f9dc-ba96-4d03-bc11-cdf546cf1741 10041 127.0.0.1 10040 
+Jan 29 17:59:07.973 HYPERVISOR: exec_cmd: ethsw add_nio SW2 udp-db75f9dc-ba96-4d03-bc11-cdf546cf1741 
+Jan 29 17:59:07.980 HYPERVISOR: exec_cmd: ethsw set_dot1q_port SW2 udp-db75f9dc-ba96-4d03-bc11-cdf546cf1741 1 
