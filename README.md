@@ -8,9 +8,9 @@ Protocols used in this project: IPv4, IPv6, static routing, NAT/PAT, OSPFv2, OSP
 
 Graphical Network Simulator 3 (GNS3): [www.gns3.com](https://www.gns3.com/)
 
-Router 3725 Firmware Image: [Download 35.7MB](http://www.av.it.pt/salvador/LR/c3725-advipservicesk9-mz.124-21.bin)
+Router 3725 Firmware Image: [http://www.av.it.pt/salvador/LR/c3725-advipservicesk9-mz.124-21.bin](http://www.av.it.pt/salvador/LR/c3725-advipservicesk9-mz.124-21.bin)
 
-Router 7200 Firmware Image: [Download 65.9MB](http://www.av.it.pt/salvador/LR/c7200-jk9o3s-mz.123-8.T.bin)
+Router 7200 Firmware Image: [http://www.av.it.pt/salvador/LR/c7200-jk9o3s-mz.123-8.T.bin](http://www.av.it.pt/salvador/LR/c7200-jk9o3s-mz.123-8.T.bin)
 
 ## Network and Address Configuration (public IPv4, private IPv4 and IPv6)
 
